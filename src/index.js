@@ -1,5 +1,6 @@
 import 'react-app-polyfill/ie9';
 import 'babel-polyfill';
+// import './temp';
 import { Provider } from 'react-redux';
 import React from 'react';
 import ReactDOM from 'react-dom';
