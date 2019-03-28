@@ -1,8 +1,5 @@
 import React, {Component} from 'react';
 import styles from './shedule.style.css';
-// import {saveSeats} from './../actions.redux/saveSeats';
-// import {getSeats} from './../actions.redux/getSeats';
-// import {store} from './../store';
 import Cinema from './cinemaScheme/cinema.component';
 import { connect } from 'react-redux';
 import CinemaSelector from './cinemaSelector/cinemaSelector.component';

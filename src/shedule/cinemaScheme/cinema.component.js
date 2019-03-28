@@ -9,7 +9,6 @@ import Banner from './archiveBanner/banner.component';
 class Cinema extends Component{
     constructor(props){
         super(props);
-        console.log(props.data.price);
         this.handleSeatAdd = this.handleSeatAdd.bind(this);
         this.handleSeatRemove = this.handleSeatRemove.bind(this);
         this.handleSeatApply = this.handleSeatApply.bind(this);
@@ -33,7 +32,6 @@ class Cinema extends Component{
     handleSeatAdd(rowNum, seatNum){
         this.setState({price: this.state.price+this.state.filmPrice});
         this.state.selected.push({row: rowNum, seat: seatNum});
-        console.log(this.state.selected);
     };
 
     handleSeatApply(){
