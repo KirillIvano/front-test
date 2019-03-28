@@ -1,0 +1,7 @@
+{
+    "less.compile":{
+        "compress": true,
+        "autoPrefixer": "> 0.02%, not ie < 9",
+        "ieCompat": true
+    }
+}
