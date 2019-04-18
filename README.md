@@ -1,3 +1,5 @@
 # front-test
 
-снимите комментарий с import './temp' в index, чтобы загрузить начальные данные в localStorage
+Снимите комментарий с import './temp' в index, чтобы загрузить начальные данные в localStorage.
+Тестовый проект.
+
